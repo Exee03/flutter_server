@@ -4,8 +4,6 @@ final List<User> users = [
   User(
     username: 'test user',
     email: 'test@example.com',
-    age: 30,
-    gender: 'male',
     password: '123456',
   ),
 ];

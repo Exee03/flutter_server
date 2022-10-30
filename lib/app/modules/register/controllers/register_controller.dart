@@ -41,8 +41,6 @@ class RegisterController extends GetxController {
     final inputs = [
       'username',
       'email',
-      'age',
-      'gender',
       'password',
     ];
     inputs.forEach((element) => checkInput(element, json));
