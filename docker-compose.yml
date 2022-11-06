@@ -8,10 +8,5 @@ services:
     build:
       dockerfile: Dockerfile
       context: .
-      # Only will build development stage from our dockerfile
-      # target: development
-      # target: production
-    # Run a command against the development stage of the image. Comment this if production
-    # command: yarn start:dev
     ports:
       - 8080:8080
