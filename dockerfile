@@ -19,5 +19,5 @@ COPY --from=build /runtime/ /
 COPY --from=build /app/lib/main /app/lib/
 
 # Start server.
-# EXPOSE 8080
+EXPOSE 8080
 CMD ["/app/lib/main"]
